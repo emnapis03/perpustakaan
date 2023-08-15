@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Kategori</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container clearfix">
+        <h1>Gudang Buku</h1>
+
+         <div class="sidebar">
+            <ul>
+                <li><a href="pinjam_data.html">Peminjaman</a></li>
+                <li><a href="kembail_data.html">Pengembalian</a></li>
+                <li><a class="active" href="kategori_data.html">Data Kategori</a></li>
+                <li><a href="buku_data.html">Data Buku</a></li>
+                <li><a href="anggota_data.html">Data Anggota</a></li>
+                <li><a href="#" onclick="return confirm('anda yakin akan keluar?')">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h3>Tambah Data Kategori</h3>
+            <form method="post">
+                <p>Kategori</p>
+                <p><input type="text" name="kategori"></p>
+
+                <p><input type="submit" class="btn btn-submit" value="Simpan"></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

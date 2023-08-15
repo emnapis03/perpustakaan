@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daftar Kategori</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container clearfix">
+        <h1>Gudang Buku</h1>
+
+         <div class="sidebar">
+            <ul>
+                <li><a href="pinjam_data.html">Peminjaman</a></li>
+                <li><a href="kembail_data.html">Pengembalian</a></li>
+                <li><a class="active" href="kategori_data.html">Data Kategori</a></li>
+                <li><a href="buku_data.html">Data Buku</a></li>
+                <li><a href="anggota_data.html">Data Anggota</a></li>
+                <li><a href="#" onclick="return confirm('anda yakin akan keluar?')">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Daftar Kategori</h1>
+            <div class="btn-tambah-div">
+                <a href="kategori_form.html"><button class="btn btn-tambah">Tambah Data</button></a>
+            </div>
+            <table class="data">
+                <tr>
+                    <th>Kategori</th>
+                    <th width="20%">Pilihan</th>
+                </tr>
+
+                <tr>
+                    <td>Komputer</td>
+                    <td>
+                        <a href="kategori_form.html" class="btn btn-edit">Edit</a>
+                        <a href="#"  onclick="return confirm('anda yakin akan menghapus data?')" class="btn btn-hapus">Hapus</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Komputer</td>
+                    <td>
+                        <a href="kategori_form.html" class="btn btn-edit">Edit</a>
+                        <a href="#"  onclick="return confirm('anda yakin akan menghapus data?')" class="btn btn-hapus">Hapus</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Komputer</td>
+                    <td>
+                        <a href="kategori_form.html" class="btn btn-edit">Edit</a>
+                        <a href="#"  onclick="return confirm('anda yakin akan menghapus data?')" class="btn btn-hapus">Hapus</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Komputer</td>
+                    <td>
+                        <a href="kategori_form.html" class="btn btn-edit">Edit</a>
+                        <a href="#"  onclick="return confirm('anda yakin akan menghapus data?')" class="btn btn-hapus">Hapus</a>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
